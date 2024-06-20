@@ -16,6 +16,8 @@ const Login =()=>{
     return(
         <form onSubmit={handleLogin}>
         <h2>Login</h2>
+        <button type="submit">Login</button> 
+        <br/>
 <input placeholder="Enter Username"
  type="text" 
  onChange={(e)=>setUserName(e.target.value)} 
@@ -25,8 +27,8 @@ const Login =()=>{
 type="password" 
 onChange={(e)=>setPassword(e.target.value)}
 />
-<br/>
- <button type="submit">Login</button>           
+
+           
         </form>
     );
 };

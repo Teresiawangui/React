@@ -11,7 +11,7 @@ const Users = () =>{
             users.map((user)=>(
             <UserCard 
             image = {user.image} 
-            fullname={`${user.firstname} ${user.lastname}`}
+            fullname={`${user.firstName} ${user.lastName}`}
             key ={user.id}
           />
 
