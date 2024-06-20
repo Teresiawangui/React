@@ -1,10 +1,11 @@
 import './index.css'
-const About = () => {
+import Logo from '../logo.svg'
+const About = ()=>{
     return(
         <div>
-        <p className="about">I am learning Reactjs which is a Javascript Front-end library</p>
+            <p className="about">I am learning ReactJS which is a JavaScript frontEnd Library</p>
+            <img src= {Logo} alt='logo'/>
         </div>
-
     )
 }
 export default About;

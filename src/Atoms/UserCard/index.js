@@ -1,9 +1,9 @@
-const UserCard = ({image,fullname,id}) =>{
-    
-    return(
-        <div>
-            <img src={image} alt={`${fullname} profile`} />
-            <h3>{fullname}</h3>
+
+const UserCard = ({image, fullName})=>{
+    return (
+        <div id="user-image">
+            <img src={image} alt={`${fullName}user-image`}/>
+            <h3>{fullName}</h3>
         </div>
     );
 };

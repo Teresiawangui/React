@@ -1,14 +1,16 @@
 // import'./App.css';
+// import './index.css'
 import Users from './Users';
 import Login from "./Login"
 const App = () =>{
-  const baseurl=process.env.REACT_APP_BASE_URL
-  console.log({baseurl})
+  const baseurl=process.env.REACT_APP_BASE_URL;
+  console.log({baseurl});
 return(
 <div>
-<Login></Login> 
+<Login/>
 <Users/>
 </div>
 )
 }
 export default App;
+
